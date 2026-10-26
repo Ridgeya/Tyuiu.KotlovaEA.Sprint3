@@ -7,7 +7,7 @@ namespace Tyuiu.KotlovaEA.Sprint3.Task6.V16.Lib
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
             int x;
-            int sum = 0;
+            int count = 0; 
 
             for (x = startValue; x <= stopValue; x++)
             {
@@ -15,11 +15,11 @@ namespace Tyuiu.KotlovaEA.Sprint3.Task6.V16.Lib
                 {
                     if (x % d == 0)
                     {
-                        sum += d;
+                        count++;
                     }
                 }
             }
-            return sum;
+            return count; 
         }
     }
 }
