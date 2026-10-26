@@ -11,7 +11,7 @@ internal class Program
         Console.WriteLine("* Тема: Оператор цикла while                                              *");
         Console.WriteLine("* Задание #1                                                              *");
         Console.WriteLine("* Вариант #26                                                             *");
-        Console.WriteLine("* Выполнил: Котлова Елизавета Алексеевна | АСОиУБ-26-1                    *");
+        Console.WriteLine("* Выполнилa: Котлова Елизавета Алексеевна | АСОиУБ-26-1                    *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
         Console.WriteLine("* Написать программу используя цикл while, которая вычисляет сумму ряда   *");
