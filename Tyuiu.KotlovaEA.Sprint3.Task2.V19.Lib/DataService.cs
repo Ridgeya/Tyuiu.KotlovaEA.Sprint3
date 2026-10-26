@@ -8,7 +8,7 @@ namespace Tyuiu.KotlovaEA.Sprint3.Task2.V19.Lib
             double sumSeries = 0;
             do
             {
-                sumSeries = sumSeries + (Math.Cos(startValue) * 0.5);
+                smSeries = sumSeries + (Math.Cos(startValue) * 0.5);
 
                 startValue++;
             }
