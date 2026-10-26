@@ -5,7 +5,7 @@ internal class Program
     {
         DataService ds = new DataService();
 
-        Console.Title = "Спринт #3 | Выполнил: Котлова Е.А. | АСОиУБ-26-1";
+        Console.Title = "Спринт #3 | Выполнилa: Котлова Е.А. | АСОиУБ-26-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #3                                                               *");
         Console.WriteLine("* Тема: Оператор цикла while                                              *");
