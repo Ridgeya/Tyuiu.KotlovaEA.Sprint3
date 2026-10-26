@@ -5,14 +5,14 @@ internal class Program
     {
         DataService ds = new DataService();
 
-        Console.Title = "Спринт #3 | Выполнил: Котлова Е.А. | АСОиУБ-26-1";
+        Console.Title = "Спринт #3 | Выполнила: Котлова Е.А. | АСОиУБ-26-1";
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #3                                                               *");
         Console.WriteLine("* Тема: Оператор цикла for                                                *");
         Console.WriteLine("* Задание #0                                                              *");
         Console.WriteLine("* Вариант #27                                                             *");
-        Console.WriteLine("* Выполнил: Котлова Елизавета Алексеевна | АСОиУБ-26-1                    *");
+        Console.WriteLine("* Выполнила: Котлова Елизавета Алексеевна | АСОиУБ-26-1                    *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
         Console.WriteLine("* Написать программу используя цикл for, которая вычисляет сумму ряда     *");
