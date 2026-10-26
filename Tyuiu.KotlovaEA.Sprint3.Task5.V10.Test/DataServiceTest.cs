@@ -9,10 +9,13 @@ namespace Tyuiu.KotlovaEA.Sprint3.Task5.V10.Test
         {
             DataService ds = new DataService();
 
-            int startValue = 1;
-            int stopValue = 10;
+            int x = 5;
+            int startValue1 = 1;
+            int stopValue1 = 3;
+            int startValue2 = 1;
+            int stopValue2 = 10;
 
-            double res = ds.Calculate(startValue, stopValue);
+            double res = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
 
             double wait = 20685;
 

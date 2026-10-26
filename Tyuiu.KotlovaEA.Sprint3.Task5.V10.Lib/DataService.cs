@@ -1,16 +1,15 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint3;
 namespace Tyuiu.KotlovaEA.Sprint3.Task5.V10.Lib
 {
-    public class DataService : ISprint3Task4V10
+    public class DataService : ISprint3Task5V10
     {
-        public double Calculate(int startValue, int stopValue)
+        public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
             double sumSeries = 0;
-            int x = 5; 
 
-            for (int i = 1; i <= 3; i++)
+            for (int i = startValue1; i <= stopValue1; i++)
             {
-                for (int k = startValue; k <= stopValue; k++)
+                for (int k = startValue2; k <= stopValue2; k++)
                 {
                     sumSeries = sumSeries + ((Math.Pow(x, 3) * k) + 2);
                 }
